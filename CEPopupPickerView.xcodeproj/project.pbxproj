@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836BD95014DD68600076BE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD94F14DD68600076BE73 /* UIKit.framework */; };
+		836BD95214DD68600076BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95114DD68600076BE73 /* Foundation.framework */; };
+		836BD95414DD68600076BE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95314DD68600076BE73 /* CoreGraphics.framework */; };
+		836BD95A14DD68600076BE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836BD95814DD68600076BE73 /* InfoPlist.strings */; };
+		836BD95C14DD68600076BE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD95B14DD68600076BE73 /* main.m */; };
+		836BD96014DD68600076BE73 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD95F14DD68600076BE73 /* CEAppDelegate.m */; };
+		836BD96314DD68600076BE73 /* CEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD96214DD68600076BE73 /* CEViewController.m */; };
+		836BD96614DD68600076BE73 /* CEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836BD96414DD68600076BE73 /* CEViewController.xib */; };
+		836BD96E14DD68600076BE73 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD96D14DD68600076BE73 /* SenTestingKit.framework */; };
+		836BD96F14DD68600076BE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD94F14DD68600076BE73 /* UIKit.framework */; };
+		836BD97014DD68600076BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95114DD68600076BE73 /* Foundation.framework */; };
+		836BD97814DD68600076BE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836BD97614DD68600076BE73 /* InfoPlist.strings */; };
+		836BD97B14DD68600076BE73 /* CEPopupPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD97A14DD68600076BE73 /* CEPopupPickerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836BD97114DD68600076BE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836BD94214DD68600076BE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836BD94A14DD68600076BE73;
+			remoteInfo = CEPopupPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836BD94B14DD68600076BE73 /* CEPopupPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEPopupPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836BD94F14DD68600076BE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		836BD95114DD68600076BE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		836BD95314DD68600076BE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		836BD95714DD68600076BE73 /* CEPopupPickerView-Info.plist */ = {isa = PBXFileReference; path = "CEPopupPickerView-Info.plist"; sourceTree = "<group>"; };
+		836BD95914DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836BD95B14DD68600076BE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		836BD95D14DD68600076BE73 /* CEPopupPickerView-Prefix.pch */ = {isa = PBXFileReference; path = "CEPopupPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		836BD95E14DD68600076BE73 /* CEAppDelegate.h */ = {isa = PBXFileReference; path = CEAppDelegate.h; sourceTree = "<group>"; };
+		836BD95F14DD68600076BE73 /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
+		836BD96114DD68600076BE73 /* CEViewController.h */ = {isa = PBXFileReference; path = CEViewController.h; sourceTree = "<group>"; };
+		836BD96214DD68600076BE73 /* CEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEViewController.m; sourceTree = "<group>"; };
+		836BD96514DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CEViewController.xib; sourceTree = "<group>"; };
+		836BD96C14DD68600076BE73 /* CEPopupPickerViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEPopupPickerViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836BD96D14DD68600076BE73 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		836BD97514DD68600076BE73 /* CEPopupPickerViewTests-Info.plist */ = {isa = PBXFileReference; path = "CEPopupPickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		836BD97714DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836BD97914DD68600076BE73 /* CEPopupPickerViewTests.h */ = {isa = PBXFileReference; path = CEPopupPickerViewTests.h; sourceTree = "<group>"; };
+		836BD97A14DD68600076BE73 /* CEPopupPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEPopupPickerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836BD94814DD68600076BE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD95014DD68600076BE73 /* UIKit.framework in Frameworks */,
+				836BD95214DD68600076BE73 /* Foundation.framework in Frameworks */,
+				836BD95414DD68600076BE73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836BD96814DD68600076BE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD96E14DD68600076BE73 /* SenTestingKit.framework in Frameworks */,
+				836BD96F14DD68600076BE73 /* UIKit.framework in Frameworks */,
+				836BD97014DD68600076BE73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836BD94014DD68600076BE73 = {
+			isa = PBXGroup;
+			children = (
+				836BD95514DD68600076BE73 /* CEPopupPickerView */,
+				836BD97314DD68600076BE73 /* CEPopupPickerViewTests */,
+				836BD94E14DD68600076BE73 /* Frameworks */,
+				836BD94C14DD68600076BE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836BD94C14DD68600076BE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836BD94B14DD68600076BE73 /* CEPopupPickerView.app */,
+				836BD96C14DD68600076BE73 /* CEPopupPickerViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836BD94E14DD68600076BE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836BD94F14DD68600076BE73 /* UIKit.framework */,
+				836BD95114DD68600076BE73 /* Foundation.framework */,
+				836BD95314DD68600076BE73 /* CoreGraphics.framework */,
+				836BD96D14DD68600076BE73 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		836BD95514DD68600076BE73 /* CEPopupPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				836BD95E14DD68600076BE73 /* CEAppDelegate.h */,
+				836BD95F14DD68600076BE73 /* CEAppDelegate.m */,
+				836BD96114DD68600076BE73 /* CEViewController.h */,
+				836BD96214DD68600076BE73 /* CEViewController.m */,
+				836BD96414DD68600076BE73 /* CEViewController.xib */,
+				836BD95614DD68600076BE73 /* Supporting Files */,
+			);
+			path = CEPopupPickerView;
+			sourceTree = "<group>";
+		};
+		836BD95614DD68600076BE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836BD95714DD68600076BE73 /* CEPopupPickerView-Info.plist */,
+				836BD95814DD68600076BE73 /* InfoPlist.strings */,
+				836BD95B14DD68600076BE73 /* main.m */,
+				836BD95D14DD68600076BE73 /* CEPopupPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		836BD97314DD68600076BE73 /* CEPopupPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				836BD97914DD68600076BE73 /* CEPopupPickerViewTests.h */,
+				836BD97A14DD68600076BE73 /* CEPopupPickerViewTests.m */,
+				836BD97414DD68600076BE73 /* Supporting Files */,
+			);
+			path = CEPopupPickerViewTests;
+			sourceTree = "<group>";
+		};
+		836BD97414DD68600076BE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836BD97514DD68600076BE73 /* CEPopupPickerViewTests-Info.plist */,
+				836BD97614DD68600076BE73 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836BD94A14DD68600076BE73 /* CEPopupPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836BD97E14DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerView" */;
+			buildPhases = (
+				836BD94714DD68600076BE73 /* Sources */,
+				836BD94814DD68600076BE73 /* Frameworks */,
+				836BD94914DD68600076BE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEPopupPickerView;
+			productName = CEPopupPickerView;
+			productReference = 836BD94B14DD68600076BE73 /* CEPopupPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836BD96B14DD68600076BE73 /* CEPopupPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836BD98114DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerViewTests" */;
+			buildPhases = (
+				836BD96714DD68600076BE73 /* Sources */,
+				836BD96814DD68600076BE73 /* Frameworks */,
+				836BD96914DD68600076BE73 /* Resources */,
+				836BD96A14DD68600076BE73 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836BD97214DD68600076BE73 /* PBXTargetDependency */,
+			);
+			name = CEPopupPickerViewTests;
+			productName = CEPopupPickerViewTests;
+			productReference = 836BD96C14DD68600076BE73 /* CEPopupPickerViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836BD94214DD68600076BE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Chris Eidhof";
+			};
+			buildConfigurationList = 836BD94514DD68600076BE73 /* Build configuration list for PBXProject "CEPopupPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 836BD94014DD68600076BE73;
+			productRefGroup = 836BD94C14DD68600076BE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836BD94A14DD68600076BE73 /* CEPopupPickerView */,
+				836BD96B14DD68600076BE73 /* CEPopupPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836BD94914DD68600076BE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD95A14DD68600076BE73 /* InfoPlist.strings in Resources */,
+				836BD96614DD68600076BE73 /* CEViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836BD96914DD68600076BE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD97814DD68600076BE73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		836BD96A14DD68600076BE73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836BD94714DD68600076BE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD95C14DD68600076BE73 /* main.m in Sources */,
+				836BD96014DD68600076BE73 /* CEAppDelegate.m in Sources */,
+				836BD96314DD68600076BE73 /* CEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836BD96714DD68600076BE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836BD97B14DD68600076BE73 /* CEPopupPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836BD97214DD68600076BE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836BD94A14DD68600076BE73 /* CEPopupPickerView */;
+			targetProxy = 836BD97114DD68600076BE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836BD95814DD68600076BE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836BD95914DD68600076BE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		836BD96414DD68600076BE73 /* CEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836BD96514DD68600076BE73 /* en */,
+			);
+			name = CEViewController.xib;
+			sourceTree = "<group>";
+		};
+		836BD97614DD68600076BE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836BD97714DD68600076BE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836BD97C14DD68600076BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		836BD97D14DD68600076BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836BD97F14DD68600076BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				INFOPLIST_FILE = "CEPopupPickerView/CEPopupPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		836BD98014DD68600076BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				INFOPLIST_FILE = "CEPopupPickerView/CEPopupPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		836BD98214DD68600076BE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CEPopupPickerView.app/CEPopupPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				INFOPLIST_FILE = "CEPopupPickerViewTests/CEPopupPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		836BD98314DD68600076BE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CEPopupPickerView.app/CEPopupPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				INFOPLIST_FILE = "CEPopupPickerViewTests/CEPopupPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836BD94514DD68600076BE73 /* Build configuration list for PBXProject "CEPopupPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836BD97C14DD68600076BE73 /* Debug */,
+				836BD97D14DD68600076BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836BD97E14DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836BD97F14DD68600076BE73 /* Debug */,
+				836BD98014DD68600076BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836BD98114DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836BD98214DD68600076BE73 /* Debug */,
+				836BD98314DD68600076BE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836BD94214DD68600076BE73 /* Project object */;
+}
