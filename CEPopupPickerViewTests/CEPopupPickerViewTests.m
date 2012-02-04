@@ -7,26 +7,27 @@
 //
 
 #import "CEPopupPickerViewTests.h"
+#import "CEPopupPickerView.h"
+
+@interface CEPopupPickerViewTests () {
+@private
+CEPopupPickerView* popupPickerView;
+}
+@end
 
 @implementation CEPopupPickerViewTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    STAssertNotNil(popupPickerView, @"Could not create test subject.");
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
+    popupPickerView = nil;
     [super tearDown];
-}
-
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in CEPopupPickerViewTests");
 }
 
 @end

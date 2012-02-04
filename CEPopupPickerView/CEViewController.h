@@ -10,4 +10,9 @@
 
 @interface CEViewController : UIViewController
 
+- (IBAction)chooseCharacter:(id)sender;
+- (IBAction)close:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *selectedCharacter;
+
 @end

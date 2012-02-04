@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83422BF314E1623E0089AD76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD95B14DD68600076BE73 /* main.m */; };
+		83422BF414E1623E0089AD76 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD95F14DD68600076BE73 /* CEAppDelegate.m */; };
+		83422BF514E1623E0089AD76 /* CEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD96214DD68600076BE73 /* CEViewController.m */; };
+		83422BF614E1623E0089AD76 /* CEPopupPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD98514DD69970076BE73 /* CEPopupPickerView.m */; };
+		83422BF814E1623E0089AD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD94F14DD68600076BE73 /* UIKit.framework */; };
+		83422BF914E1623E0089AD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95114DD68600076BE73 /* Foundation.framework */; };
+		83422BFA14E1623E0089AD76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95314DD68600076BE73 /* CoreGraphics.framework */; };
+		83422BFB14E1623E0089AD76 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5846D596512A4A8EA0A0ABE8 /* libPods.a */; };
+		83422BFD14E1623E0089AD76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836BD95814DD68600076BE73 /* InfoPlist.strings */; };
+		83422BFE14E1623E0089AD76 /* CEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836BD96414DD68600076BE73 /* CEViewController.xib */; };
+		83422C0914E163230089AD76 /* CETestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83422C0814E163230089AD76 /* CETestController.m */; };
+		83422C0D14E163970089AD76 /* KIFTestScenario+CEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83422C0C14E163970089AD76 /* KIFTestScenario+CEAdditions.m */; };
+		83422C1014E1642C0089AD76 /* KIFTestStep+CEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83422C0F14E1642C0089AD76 /* KIFTestStep+CEAdditions.m */; };
 		836BD95014DD68600076BE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD94F14DD68600076BE73 /* UIKit.framework */; };
 		836BD95214DD68600076BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95114DD68600076BE73 /* Foundation.framework */; };
 		836BD95414DD68600076BE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95314DD68600076BE73 /* CoreGraphics.framework */; };
@@ -20,6 +33,10 @@
 		836BD97014DD68600076BE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95114DD68600076BE73 /* Foundation.framework */; };
 		836BD97814DD68600076BE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836BD97614DD68600076BE73 /* InfoPlist.strings */; };
 		836BD97B14DD68600076BE73 /* CEPopupPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD97A14DD68600076BE73 /* CEPopupPickerViewTests.m */; };
+		836BD98614DD69970076BE73 /* CEPopupPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BD98514DD69970076BE73 /* CEPopupPickerView.m */; };
+		836BD98714DD6EFD0076BE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BD95314DD68600076BE73 /* CoreGraphics.framework */; };
+		88D68DA99DB34D8F991AF98E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5846D596512A4A8EA0A0ABE8 /* libPods.a */; };
+		ECF93FA8BC1B46BC9EA72A3A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5846D596512A4A8EA0A0ABE8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,28 +50,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5846D596512A4A8EA0A0ABE8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83422C0314E1623E0089AD76 /* CEPopupPickerView (Integration Tests).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CEPopupPickerView (Integration Tests).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83422C0614E1623F0089AD76 /* CEPopupPickerView copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CEPopupPickerView copy-Info.plist"; path = "/Users/chris/Development/iPhone/CEPopupPickerView/CEPopupPickerView copy-Info.plist"; sourceTree = "<absolute>"; };
+		83422C0714E163230089AD76 /* CETestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CETestController.h; path = CEPopupPickerViewIntegrationTests/CETestController.h; sourceTree = SOURCE_ROOT; };
+		83422C0814E163230089AD76 /* CETestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CETestController.m; path = CEPopupPickerViewIntegrationTests/CETestController.m; sourceTree = SOURCE_ROOT; };
+		83422C0B14E163970089AD76 /* KIFTestScenario+CEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KIFTestScenario+CEAdditions.h"; path = "CEPopupPickerViewIntegrationTests/KIFTestScenario+CEAdditions.h"; sourceTree = "<group>"; };
+		83422C0C14E163970089AD76 /* KIFTestScenario+CEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "KIFTestScenario+CEAdditions.m"; path = "CEPopupPickerViewIntegrationTests/KIFTestScenario+CEAdditions.m"; sourceTree = "<group>"; };
+		83422C0E14E1642C0089AD76 /* KIFTestStep+CEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KIFTestStep+CEAdditions.h"; path = "CEPopupPickerViewIntegrationTests/KIFTestStep+CEAdditions.h"; sourceTree = "<group>"; };
+		83422C0F14E1642C0089AD76 /* KIFTestStep+CEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "KIFTestStep+CEAdditions.m"; path = "CEPopupPickerViewIntegrationTests/KIFTestStep+CEAdditions.m"; sourceTree = "<group>"; };
 		836BD94B14DD68600076BE73 /* CEPopupPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEPopupPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836BD94F14DD68600076BE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		836BD95114DD68600076BE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		836BD95314DD68600076BE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		836BD95714DD68600076BE73 /* CEPopupPickerView-Info.plist */ = {isa = PBXFileReference; path = "CEPopupPickerView-Info.plist"; sourceTree = "<group>"; };
+		836BD95714DD68600076BE73 /* CEPopupPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CEPopupPickerView-Info.plist"; sourceTree = "<group>"; };
 		836BD95914DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836BD95B14DD68600076BE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		836BD95D14DD68600076BE73 /* CEPopupPickerView-Prefix.pch */ = {isa = PBXFileReference; path = "CEPopupPickerView-Prefix.pch"; sourceTree = "<group>"; };
-		836BD95E14DD68600076BE73 /* CEAppDelegate.h */ = {isa = PBXFileReference; path = CEAppDelegate.h; sourceTree = "<group>"; };
+		836BD95D14DD68600076BE73 /* CEPopupPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEPopupPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		836BD95E14DD68600076BE73 /* CEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
 		836BD95F14DD68600076BE73 /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
-		836BD96114DD68600076BE73 /* CEViewController.h */ = {isa = PBXFileReference; path = CEViewController.h; sourceTree = "<group>"; };
+		836BD96114DD68600076BE73 /* CEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEViewController.h; sourceTree = "<group>"; };
 		836BD96214DD68600076BE73 /* CEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEViewController.m; sourceTree = "<group>"; };
 		836BD96514DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CEViewController.xib; sourceTree = "<group>"; };
 		836BD96C14DD68600076BE73 /* CEPopupPickerViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEPopupPickerViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836BD96D14DD68600076BE73 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		836BD97514DD68600076BE73 /* CEPopupPickerViewTests-Info.plist */ = {isa = PBXFileReference; path = "CEPopupPickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		836BD97514DD68600076BE73 /* CEPopupPickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CEPopupPickerViewTests-Info.plist"; sourceTree = "<group>"; };
 		836BD97714DD68600076BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		836BD97914DD68600076BE73 /* CEPopupPickerViewTests.h */ = {isa = PBXFileReference; path = CEPopupPickerViewTests.h; sourceTree = "<group>"; };
+		836BD97914DD68600076BE73 /* CEPopupPickerViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEPopupPickerViewTests.h; sourceTree = "<group>"; };
 		836BD97A14DD68600076BE73 /* CEPopupPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEPopupPickerViewTests.m; sourceTree = "<group>"; };
+		836BD98414DD69970076BE73 /* CEPopupPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEPopupPickerView.h; sourceTree = "<group>"; };
+		836BD98514DD69970076BE73 /* CEPopupPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPopupPickerView.m; sourceTree = "<group>"; };
+		A12E6959D8034440B6B516F6 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		83422BF714E1623E0089AD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83422BF814E1623E0089AD76 /* UIKit.framework in Frameworks */,
+				83422BF914E1623E0089AD76 /* Foundation.framework in Frameworks */,
+				83422BFA14E1623E0089AD76 /* CoreGraphics.framework in Frameworks */,
+				83422BFB14E1623E0089AD76 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		836BD94814DD68600076BE73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +102,7 @@
 				836BD95014DD68600076BE73 /* UIKit.framework in Frameworks */,
 				836BD95214DD68600076BE73 /* Foundation.framework in Frameworks */,
 				836BD95414DD68600076BE73 /* CoreGraphics.framework in Frameworks */,
+				ECF93FA8BC1B46BC9EA72A3A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,22 +110,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836BD98714DD6EFD0076BE73 /* CoreGraphics.framework in Frameworks */,
 				836BD96E14DD68600076BE73 /* SenTestingKit.framework in Frameworks */,
 				836BD96F14DD68600076BE73 /* UIKit.framework in Frameworks */,
 				836BD97014DD68600076BE73 /* Foundation.framework in Frameworks */,
+				88D68DA99DB34D8F991AF98E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83422C0A14E1635C0089AD76 /* CEPopupPickerViewIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				83422C0714E163230089AD76 /* CETestController.h */,
+				83422C0814E163230089AD76 /* CETestController.m */,
+				83422C0B14E163970089AD76 /* KIFTestScenario+CEAdditions.h */,
+				83422C0C14E163970089AD76 /* KIFTestScenario+CEAdditions.m */,
+				83422C0E14E1642C0089AD76 /* KIFTestStep+CEAdditions.h */,
+				83422C0F14E1642C0089AD76 /* KIFTestStep+CEAdditions.m */,
+			);
+			name = CEPopupPickerViewIntegrationTests;
+			sourceTree = "<group>";
+		};
 		836BD94014DD68600076BE73 = {
 			isa = PBXGroup;
 			children = (
 				836BD95514DD68600076BE73 /* CEPopupPickerView */,
 				836BD97314DD68600076BE73 /* CEPopupPickerViewTests */,
+				83422C0A14E1635C0089AD76 /* CEPopupPickerViewIntegrationTests */,
 				836BD94E14DD68600076BE73 /* Frameworks */,
 				836BD94C14DD68600076BE73 /* Products */,
+				A12E6959D8034440B6B516F6 /* Pods.xcconfig */,
+				83422C0614E1623F0089AD76 /* CEPopupPickerView copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +152,7 @@
 			children = (
 				836BD94B14DD68600076BE73 /* CEPopupPickerView.app */,
 				836BD96C14DD68600076BE73 /* CEPopupPickerViewTests.octest */,
+				83422C0314E1623E0089AD76 /* CEPopupPickerView (Integration Tests).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +164,7 @@
 				836BD95114DD68600076BE73 /* Foundation.framework */,
 				836BD95314DD68600076BE73 /* CoreGraphics.framework */,
 				836BD96D14DD68600076BE73 /* SenTestingKit.framework */,
+				5846D596512A4A8EA0A0ABE8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +178,8 @@
 				836BD96214DD68600076BE73 /* CEViewController.m */,
 				836BD96414DD68600076BE73 /* CEViewController.xib */,
 				836BD95614DD68600076BE73 /* Supporting Files */,
+				836BD98414DD69970076BE73 /* CEPopupPickerView.h */,
+				836BD98514DD69970076BE73 /* CEPopupPickerView.m */,
 			);
 			path = CEPopupPickerView;
 			sourceTree = "<group>";
@@ -154,6 +217,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		83422BF114E1623E0089AD76 /* Integration Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83422C0014E1623E0089AD76 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
+			buildPhases = (
+				83422BF214E1623E0089AD76 /* Sources */,
+				83422BF714E1623E0089AD76 /* Frameworks */,
+				83422BFC14E1623E0089AD76 /* Resources */,
+				83422BFF14E1623E0089AD76 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Integration Tests";
+			productName = CEPopupPickerView;
+			productReference = 83422C0314E1623E0089AD76 /* CEPopupPickerView (Integration Tests).app */;
+			productType = "com.apple.product-type.application";
+		};
 		836BD94A14DD68600076BE73 /* CEPopupPickerView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836BD97E14DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerView" */;
@@ -161,6 +242,7 @@
 				836BD94714DD68600076BE73 /* Sources */,
 				836BD94814DD68600076BE73 /* Frameworks */,
 				836BD94914DD68600076BE73 /* Resources */,
+				84AC87A206294DFD982AE3F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +261,7 @@
 				836BD96814DD68600076BE73 /* Frameworks */,
 				836BD96914DD68600076BE73 /* Resources */,
 				836BD96A14DD68600076BE73 /* ShellScript */,
+				84AC87A206294DFD982AE3F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,11 +296,21 @@
 			targets = (
 				836BD94A14DD68600076BE73 /* CEPopupPickerView */,
 				836BD96B14DD68600076BE73 /* CEPopupPickerViewTests */,
+				83422BF114E1623E0089AD76 /* Integration Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		83422BFC14E1623E0089AD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83422BFD14E1623E0089AD76 /* InfoPlist.strings in Resources */,
+				83422BFE14E1623E0089AD76 /* CEViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		836BD94914DD68600076BE73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +331,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		83422BFF14E1623E0089AD76 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		836BD96A14DD68600076BE73 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,9 +358,37 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		84AC87A206294DFD982AE3F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		83422BF214E1623E0089AD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83422BF314E1623E0089AD76 /* main.m in Sources */,
+				83422BF414E1623E0089AD76 /* CEAppDelegate.m in Sources */,
+				83422BF514E1623E0089AD76 /* CEViewController.m in Sources */,
+				83422BF614E1623E0089AD76 /* CEPopupPickerView.m in Sources */,
+				83422C0914E163230089AD76 /* CETestController.m in Sources */,
+				83422C0D14E163970089AD76 /* KIFTestScenario+CEAdditions.m in Sources */,
+				83422C1014E1642C0089AD76 /* KIFTestStep+CEAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		836BD94714DD68600076BE73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +396,7 @@
 				836BD95C14DD68600076BE73 /* main.m in Sources */,
 				836BD96014DD68600076BE73 /* CEAppDelegate.m in Sources */,
 				836BD96314DD68600076BE73 /* CEViewController.m in Sources */,
+				836BD98614DD69970076BE73 /* CEPopupPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +446,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		83422C0114E1623E0089AD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					RUN_KIF_TESTS,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CEPopupPickerView copy-Info.plist";
+				PRODUCT_NAME = "CEPopupPickerView (Integration Tests)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83422C0214E1623E0089AD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					RUN_KIF_TESTS,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CEPopupPickerView copy-Info.plist";
+				PRODUCT_NAME = "CEPopupPickerView (Integration Tests)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		836BD97C14DD68600076BE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,38 +531,50 @@
 		};
 		836BD97F14DD68600076BE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CEPopupPickerView/CEPopupPickerView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		836BD98014DD68600076BE73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CEPopupPickerView/CEPopupPickerView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		836BD98214DD68600076BE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CEPopupPickerView.app/CEPopupPickerView";
+				DSTROOT = /tmp/xcodeproj.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CEPopupPickerViewTests/CEPopupPickerViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -396,16 +582,20 @@
 		};
 		836BD98314DD68600076BE73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12E6959D8034440B6B516F6 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CEPopupPickerView.app/CEPopupPickerView";
+				DSTROOT = /tmp/xcodeproj.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CEPopupPickerView/CEPopupPickerView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CEPopupPickerViewTests/CEPopupPickerViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -414,6 +604,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		83422C0014E1623E0089AD76 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83422C0114E1623E0089AD76 /* Debug */,
+				83422C0214E1623E0089AD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		836BD94514DD68600076BE73 /* Build configuration list for PBXProject "CEPopupPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -430,6 +629,7 @@
 				836BD98014DD68600076BE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836BD98114DD68600076BE73 /* Build configuration list for PBXNativeTarget "CEPopupPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +638,7 @@
 				836BD98314DD68600076BE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

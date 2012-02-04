@@ -10,6 +10,10 @@
 
 #import "CEViewController.h"
 
+#if RUN_KIF_TESTS
+#import "CETestController.h"
+#endif
+
 @implementation CEAppDelegate
 
 @synthesize window = _window;
@@ -22,6 +26,14 @@
     self.viewController = [[CEViewController alloc] initWithNibName:@"CEViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+#if RUN_KIF_TESTS
+    [[CETestController sharedInstance] startTestingWithCompletionBlock:^{
+        // Exit after the tests complete so that CI knows we're done
+        exit([[CETestController sharedInstance] failureCount]);
+    }];
+#endif
+
     return YES;
 }
 

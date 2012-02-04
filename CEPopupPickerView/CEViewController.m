@@ -7,8 +7,16 @@
 //
 
 #import "CEViewController.h"
+#import "CEPopupPickerView.h"
+
+@interface CEViewController () {
+@private
+CEPopupPickerView* popupPicker;
+}
+@end
 
 @implementation CEViewController
+@synthesize selectedCharacter;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +34,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSelectedCharacter:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,6 +64,21 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)chooseCharacter:(id)sender {
+    NSArray* values = [NSArray arrayWithObjects:@"Don", @"Peggy", @"Pete", nil];
+    if(popupPicker == nil) {
+        popupPicker = [[CEPopupPickerView alloc] initWithValues:values callback:^(NSInteger selectedIndex) {
+            self.selectedCharacter.text = [NSString stringWithFormat:@"you chose: %@", [values objectAtIndex:selectedIndex]];
+        }];
+        popupPicker.pickerAccessibilityLabel = @"Picker";
+    }
+    [popupPicker presentInView:self.view];
+}
+
+- (IBAction)close:(id)sender {
+    [popupPicker close];
 }
 
 @end
