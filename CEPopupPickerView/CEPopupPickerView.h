@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-// todo should be an NSObject?
-// todo test reuse
-
 typedef void(^pickerViewCloseHandler)(NSInteger selectedIndex);
 
 @interface CEPopupPickerView : NSObject <UIPickerViewDelegate, UIPickerViewDataSource>
