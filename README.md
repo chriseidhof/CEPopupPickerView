@@ -1,14 +1,14 @@
-CEPopupPicker
+CEPopupPickerView
 =============
 
-CEPopupPicker is a library that shows a UIPickerView at the bottom of the
+CEPopupPickerView is a library that shows a UIPickerView at the bottom of the
 screen, just like the Facebook app. When the users taps outside the UIPickerView
 or taps the selected row, the popup dismisses and calls the delegate.
 
 Installation
 ------------
 
-CEPopupPickerView is best installed via [CocoaPods](https://github.com/CocoaPods/CocoaPods).
+CEPopupPickerView is best installed via [CocoaPods](https://github.com/CocoaPods/CocoaPods). Alternatively, you can drag the `CEPopupPickerView/CEPopupPickerView.{h,m}` into your project.
 
 Usage
 -----
