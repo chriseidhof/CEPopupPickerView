@@ -11,7 +11,6 @@
 @interface CEPopupPickerView () {
 @private
     NSArray* values;
-    UIView* glassPane;
     UIView* parentView;
     UIPickerView* pickerView;
     NSInteger selectedIndex;
@@ -31,7 +30,7 @@
 @synthesize callback, pickerAccessibilityLabel;
 
 - (id)initWithValues:(NSArray*)theValues callback:(pickerViewCloseHandler)theCallback {
-    self = [super init];
+    self = [super initWithFrame:CGRectZero];
     if(self) {
         values = theValues;
         self.callback = theCallback;
@@ -43,7 +42,6 @@
 - (void)presentInView:(UIView*)theParentView {
     parentView = theParentView;
     [self setupGlasspane];
-    [parentView addSubview:glassPane];
     [self setupAndAddPickerView];
     [self animatePickerViewFromBottomOfParentView];
 }
@@ -54,7 +52,7 @@
     [UIView animateWithDuration:0.2 animations:^{
         [self movePickerViewToBottomOfParentView];
     } completion:^(BOOL finished) {
-        [glassPane removeFromSuperview];
+        [self removeFromSuperview];
     }];
 }
 
@@ -73,20 +71,20 @@
 }
 
 - (void)setupGlasspane {
-    if(glassPane != nil) return;
-    glassPane = [[UIView alloc] initWithFrame:parentView.bounds];
-    glassPane.accessibilityLabel = @"Tap to close";
-    glassPane.backgroundColor = [UIColor clearColor];
-    glassPane.opaque = NO;
+    [parentView addSubview:self];
+    self.frame = parentView.bounds;
+    self.accessibilityLabel = @"Tap to close";
+    self.backgroundColor = [UIColor clearColor];
+    self.opaque = NO;
     UITapGestureRecognizer* glassPaneTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGlassPane:)];
-    [glassPane addGestureRecognizer:glassPaneTapRecognizer];
+    [self addGestureRecognizer:glassPaneTapRecognizer];
 }
 
 - (void)setupAndAddPickerView {
     if(pickerView != nil) return;
     
     pickerView = [[UIPickerView alloc] initWithFrame:CGRectZero];
-    [glassPane addSubview:pickerView];
+    [self addSubview:pickerView];
     pickerView.delegate = self;
     pickerView.dataSource = self;
     pickerView.showsSelectionIndicator = YES;
@@ -125,7 +123,7 @@
 }
 
 - (BOOL)isDisplaying {
-    return [glassPane superview] != nil;
+    return [self superview] != nil;
 }
 
 #pragma mark UIGestureRecognizer callbacks
@@ -143,7 +141,6 @@
     if(tappedRow == middleRow) {
         [self notifyDelegateAndClose];
     }
-
 }
 
 #pragma mark UIPickerView methods

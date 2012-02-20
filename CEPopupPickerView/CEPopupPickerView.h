@@ -10,7 +10,7 @@
 
 typedef void(^pickerViewCloseHandler)(NSInteger selectedIndex);
 
-@interface CEPopupPickerView : NSObject <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface CEPopupPickerView : UIView <UIPickerViewDelegate, UIPickerViewDataSource>
 
 - (id)initWithValues:(NSArray*)values callback:(pickerViewCloseHandler)callback;
 - (void)presentInView:(UIView*)view;
