@@ -26,7 +26,7 @@ Put this somewhere in your view controller:
     }];
     [popupPicker presentInView:self.view];
 
-If you want to run an example, clone this project and open the XCode Project.
+If you want to run an example, clone this project and open the Xcode Project.
 
 For now, the view only works in portrait mode on the iPhone, but patches for landscape mode are more than welcome. An iPad port isn't planned, as it is probably better to put a UIPickerView inside a UIPopover.
 
